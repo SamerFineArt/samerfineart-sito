@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "shop": "Prints",
+    "about": "About"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "printInfo": "Giclée prints on Hahnemühle Photo Rag 308gsm — worldwide shipping."
+  },
+  "home": {
+    "title": "Architectural photography,\nprinted to last.",
+    "subtitle": "Fine art editions on Hahnemühle Photo Rag 308gsm, pigment Giclée printing. Worldwide shipping, straight from the lab closest to you.",
+    "cta": "See available prints",
+    "latest": "Latest editions",
+    "viewAll": "All prints",
+    "startingFrom": "From €{price}"
+  },
+  "shop": {
+    "title": "Prints",
+    "subtitle": "Each image is available in four sizes, on Hahnemühle Photo Rag 308gsm paper. Portrait or landscape depending on the photo you choose.",
+    "categories": {
+      "all": "All",
+      "architecture": "Architecture",
+      "abstract": "Abstract",
+      "landscape": "Landscape",
+      "japan": "Japan"
+    }
+  },
+  "product": {
+    "size": "Size",
+    "buy": "Buy — €{price}",
+    "loading": "Please wait…",
+    "genericError": "Unexpected error.",
+    "paperInfo": "Pigment Giclée print on Hahnemühle Photo Rag 308gsm, 100% cotton, with a white border to preserve the original composition and allow for professional framing.",
+    "sizeInfo": "Sizes shown are approximate: your print is made at the lab closest to you worldwide, rounded to the nearest inch or centimetre depending on the region — a difference of a few millimetres from the nominal size is normal, not a defect.",
+    "shippingInfo": "Prints 20×30cm and larger ship rolled in a protective rigid tube; they lie flat naturally within a few hours of unrolling.",
+    "sizeDescriptions": {
+      "entry": "Compact size, ideal for starting a collection.",
+      "standard": "The most versatile size for home walls.",
+      "hero": "A strong presence, meant to be the focal point of the room.",
+      "statement": "The largest size in the collection, for generous spaces."
+    }
+  },
+  "checkout": {
+    "successTitle": "Thank you for your order",
+    "successBody": "Your payment was successful. Your print is now in production at the lab closest to you, and you'll get an email update as soon as it ships.",
+    "cancelTitle": "Payment cancelled",
+    "cancelBody": "No charge was made. You can go back to the shop and try again whenever you like.",
+    "backToShop": "Back to prints"
+  },
+  "about": {
+    "title": "About",
+    "body": "[Placeholder text: two or three paragraphs about who you are, what you look for when photographing architecture, and why you chose this paper and print format. No extensive portfolio here — that lives on Instagram — just enough context to give value to the prints for sale.]",
+    "instagram": "Follow the full body of work on Instagram"
+  }
+}

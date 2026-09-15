@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "shop": "Stampe",
+    "about": "Chi sono"
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati.",
+    "printInfo": "Stampe Giclée su carta Hahnemühle Photo Rag 308gsm — spedizione worldwide."
+  },
+  "home": {
+    "title": "Fotografia architettonica,\nstampata per durare.",
+    "subtitle": "Edizioni fine art su carta Hahnemühle Photo Rag 308gsm, stampa Giclée pigmentata. Spedizione worldwide, direttamente dal laboratorio più vicino a te.",
+    "cta": "Vedi le stampe disponibili",
+    "latest": "Ultime edizioni",
+    "viewAll": "Tutte le stampe",
+    "startingFrom": "A partire da €{price}"
+  },
+  "shop": {
+    "title": "Stampe",
+    "subtitle": "Ogni immagine è disponibile in quattro formati, su carta Hahnemühle Photo Rag 308gsm. Orientamento verticale o orizzontale in base alla foto scelta.",
+    "categories": {
+      "all": "Tutte",
+      "architecture": "Architettura",
+      "abstract": "Astratti",
+      "landscape": "Paesaggi",
+      "japan": "Giappone"
+    }
+  },
+  "product": {
+    "size": "Formato",
+    "buy": "Acquista — €{price}",
+    "loading": "Attendere…",
+    "genericError": "Errore imprevisto.",
+    "paperInfo": "Stampa Giclée pigmentata su carta Hahnemühle Photo Rag 308gsm, 100% cotone, con bordo bianco per preservare l'inquadratura originale e facilitare l'incorniciatura.",
+    "sizeInfo": "Le misure indicate sono approssimative: la stampa viene realizzata nel laboratorio più vicino a te nel mondo, con arrotondamento al pollice o al centimetro più vicino a seconda della zona — una variazione di pochi millimetri rispetto alla misura nominale è normale e non un difetto.",
+    "shippingInfo": "Le stampe dai 20×30cm in su vengono spedite arrotolate in tubo protettivo rigido; si distendono naturalmente in poche ore una volta estratte.",
+    "sizeDescriptions": {
+      "entry": "Formato compatto, ideale per iniziare una collezione.",
+      "standard": "Il formato più versatile per pareti domestiche.",
+      "hero": "Presenza importante, pensato per essere il punto focale della stanza.",
+      "statement": "Il formato più grande della collezione, per spazi ampi."
+    }
+  },
+  "checkout": {
+    "successTitle": "Grazie per il tuo ordine",
+    "successBody": "Il pagamento è andato a buon fine. La tua stampa entra ora in produzione presso il laboratorio più vicino a te e riceverai un aggiornamento via email non appena viene spedita.",
+    "cancelTitle": "Pagamento annullato",
+    "cancelBody": "Nessun addebito è stato effettuato. Puoi tornare allo shop e riprovare quando vuoi.",
+    "backToShop": "Torna alle stampe"
+  },
+  "about": {
+    "title": "Chi sono",
+    "body": "[Testo segnaposto: due o tre paragrafi su chi sei, cosa cerchi quando fotografi architettura, e perché hai scelto questa carta e questo formato di stampa. Niente portfolio esteso qui — quello vive su Instagram — solo il contesto che dà valore alle stampe in vendita.]",
+    "instagram": "Segui il lavoro completo su Instagram"
+  }
+}

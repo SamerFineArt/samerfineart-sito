@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "shop": "Impresiones",
+    "about": "Sobre mí"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "printInfo": "Impresiones Giclée sobre papel Hahnemühle Photo Rag 308gsm — envío mundial."
+  },
+  "home": {
+    "title": "Fotografía arquitectónica,\nimpresa para durar.",
+    "subtitle": "Ediciones fine art sobre papel Hahnemühle Photo Rag 308gsm, impresión Giclée pigmentada. Envío mundial, directamente desde el laboratorio más cercano a ti.",
+    "cta": "Ver impresiones disponibles",
+    "latest": "Últimas ediciones",
+    "viewAll": "Todas las impresiones",
+    "startingFrom": "Desde {price}€"
+  },
+  "shop": {
+    "title": "Impresiones",
+    "subtitle": "Cada imagen está disponible en cuatro formatos, sobre papel Hahnemühle Photo Rag 308gsm. Vertical u horizontal según la foto elegida.",
+    "categories": {
+      "all": "Todas",
+      "architecture": "Arquitectura",
+      "abstract": "Abstractos",
+      "landscape": "Paisajes",
+      "japan": "Japón"
+    }
+  },
+  "product": {
+    "size": "Tamaño",
+    "buy": "Comprar — {price}€",
+    "loading": "Espera un momento…",
+    "genericError": "Error inesperado.",
+    "paperInfo": "Impresión Giclée pigmentada sobre papel Hahnemühle Photo Rag 308gsm, 100% algodón, con borde blanco para preservar el encuadre original y facilitar el enmarcado.",
+    "sizeInfo": "Las medidas indicadas son aproximadas: tu impresión se realiza en el laboratorio más cercano a ti en el mundo, redondeada a la pulgada o al centímetro más próximo según la región — una diferencia de pocos milímetros respecto a la medida nominal es normal, no un defecto.",
+    "shippingInfo": "Las impresiones de 20×30cm en adelante se envían enrolladas en un tubo protector rígido; se aplanan de forma natural en pocas horas tras desenrollarlas.",
+    "sizeDescriptions": {
+      "entry": "Tamaño compacto, ideal para empezar una colección.",
+      "standard": "El tamaño más versátil para paredes domésticas.",
+      "hero": "Una presencia fuerte, pensada para ser el punto focal de la habitación.",
+      "statement": "El tamaño más grande de la colección, para espacios generosos."
+    }
+  },
+  "checkout": {
+    "successTitle": "Gracias por tu pedido",
+    "successBody": "El pago se ha realizado correctamente. Tu impresión entra ahora en producción en el laboratorio más cercano a ti, y recibirás una actualización por email en cuanto se envíe.",
+    "cancelTitle": "Pago cancelado",
+    "cancelBody": "No se ha realizado ningún cargo. Puedes volver a la tienda e intentarlo de nuevo cuando quieras.",
+    "backToShop": "Volver a las impresiones"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "body": "[Texto pendiente: dos o tres párrafos sobre quién eres, qué buscas al fotografiar arquitectura, y por qué elegiste este papel y este formato de impresión. Sin portfolio extenso aquí — eso vive en Instagram — solo el contexto que da valor a las impresiones en venta.]",
+    "instagram": "Sigue el trabajo completo en Instagram"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "nav": {
+    "shop": "Tirages",
+    "about": "À propos"
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "printInfo": "Tirages Giclée sur papier Hahnemühle Photo Rag 308gsm — livraison mondiale."
+  },
+  "home": {
+    "title": "Photographie architecturale,\nimprimée pour durer.",
+    "subtitle": "Éditions fine art sur papier Hahnemühle Photo Rag 308gsm, impression Giclée pigmentaire. Livraison mondiale, directement depuis le laboratoire le plus proche de vous.",
+    "cta": "Voir les tirages disponibles",
+    "latest": "Dernières éditions",
+    "viewAll": "Tous les tirages",
+    "startingFrom": "À partir de {price}€"
+  },
+  "shop": {
+    "title": "Tirages",
+    "subtitle": "Chaque image est disponible en quatre formats, sur papier Hahnemühle Photo Rag 308gsm. Portrait ou paysage selon la photo choisie.",
+    "categories": {
+      "all": "Toutes",
+      "architecture": "Architecture",
+      "abstract": "Abstraits",
+      "landscape": "Paysages",
+      "japan": "Japon"
+    }
+  },
+  "product": {
+    "size": "Format",
+    "buy": "Acheter — {price}€",
+    "loading": "Veuillez patienter…",
+    "genericError": "Erreur inattendue.",
+    "paperInfo": "Impression Giclée pigmentaire sur papier Hahnemühle Photo Rag 308gsm, 100% coton, avec une bordure blanche pour préserver le cadrage d'origine et faciliter l'encadrement.",
+    "sizeInfo": "Les dimensions indiquées sont approximatives : votre tirage est réalisé dans le laboratoire le plus proche de vous dans le monde, arrondi au pouce ou au centimètre le plus proche selon la région — un écart de quelques millimètres par rapport à la taille nominale est normal, pas un défaut.",
+    "shippingInfo": "Les tirages à partir de 20×30cm sont expédiés roulés dans un tube de protection rigide ; ils s'aplatissent naturellement en quelques heures après déroulement.",
+    "sizeDescriptions": {
+      "entry": "Format compact, idéal pour démarrer une collection.",
+      "standard": "Le format le plus polyvalent pour les murs de la maison.",
+      "hero": "Une présence forte, pensée pour être le point focal de la pièce.",
+      "statement": "Le plus grand format de la collection, pour les espaces généreux."
+    }
+  },
+  "checkout": {
+    "successTitle": "Merci pour votre commande",
+    "successBody": "Le paiement a été effectué avec succès. Votre tirage est maintenant en production dans le laboratoire le plus proche de vous, et vous recevrez une mise à jour par email dès son expédition.",
+    "cancelTitle": "Paiement annulé",
+    "cancelBody": "Aucun montant n'a été débité. Vous pouvez retourner à la boutique et réessayer quand vous le souhaitez.",
+    "backToShop": "Retour aux tirages"
+  },
+  "about": {
+    "title": "À propos",
+    "body": "[Texte à venir : deux ou trois paragraphes sur qui vous êtes, ce que vous recherchez en photographiant l'architecture, et pourquoi vous avez choisi ce papier et ce format de tirage. Pas de portfolio étendu ici — cela reste sur Instagram — juste le contexte qui donne de la valeur aux tirages en vente.]",
+    "instagram": "Suivez le travail complet sur Instagram"
+  }
+}
