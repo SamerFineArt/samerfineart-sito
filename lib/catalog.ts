@@ -79,48 +79,647 @@ export type Print = {
 // Testi segnaposto — da rifinire con le tue parole prima del lancio.
 export const PRINTS: Print[] = [
   {
-    slug: "umeda-sky-yellow",
-    title: "Umeda Sky, Osaka",
-    categories: ["architecture", "japan"],
-    story:
-      "Guardando in alto tra le travi gialle dell'Umeda Sky Building — geometria e luce industriale nel cuore di Osaka.",
+    slug: "20-fenchurch-street",
+    title: "20 Fenchurch Street",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
     orientation: "portrait",
-    imageSrc: "/prints/umeda-sky-yellow.jpg",
+    imageSrc: "/prints/20-fenchurch-street.jpg",
     printAssetUrls: {
-      entry: "DA-SOSTITUIRE-umeda-entry-print.jpg",
-      standard: "DA-SOSTITUIRE-umeda-standard-print.jpg",
-      hero: "DA-SOSTITUIRE-umeda-hero-print.jpg",
-      statement: "DA-SOSTITUIRE-umeda-statement-print.jpg",
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/20-fenchurch-street_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/20-fenchurch-street_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/20-fenchurch-street_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/20-fenchurch-street_statement_print.jpg",
     },
   },
   {
-    slug: "stairway-to-heaven",
-    title: "Stairway to Heaven",
-    categories: ["architecture", "japan"],
-    story:
-      "Una scala mobile che si perde in un tunnel di archi — prospettiva e ripetizione in bianco e nero.",
+    slug: "architectural-symphony",
+    title: "Architectural Symphony",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
     orientation: "portrait",
-    imageSrc: "/prints/stairway-to-heaven.jpg",
+    imageSrc: "/prints/architectural-symphony.jpg",
     printAssetUrls: {
-      entry: "DA-SOSTITUIRE-stairway-entry-print.jpg",
-      standard: "DA-SOSTITUIRE-stairway-standard-print.jpg",
-      hero: "DA-SOSTITUIRE-stairway-hero-print.jpg",
-      statement: "DA-SOSTITUIRE-stairway-statement-print.jpg",
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/architectural-symphony_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/architectural-symphony_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/architectural-symphony_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/architectural-symphony_statement_print.jpg",
     },
   },
   {
-    slug: "london-more-places",
-    title: "London, More Places",
-    categories: ["architecture"],
-    story:
-      "Facciate londinesi che si incrociano contro un cielo scuro — linee architettoniche in bianco e nero.",
+    slug: "bamboo-astratto-2",
+    title: "Bamboo Astratto 2",
+    categories: ["abstract"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
     orientation: "landscape",
-    imageSrc: "/prints/london-more-places.jpg",
+    imageSrc: "/prints/Bamboo%20astratto%202.jpg",
     printAssetUrls: {
-      entry: "DA-SOSTITUIRE-london-entry-print.jpg",
-      standard: "DA-SOSTITUIRE-london-standard-print.jpg",
-      hero: "DA-SOSTITUIRE-london-hero-print.jpg",
-      statement: "DA-SOSTITUIRE-london-statement-print.jpg",
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Bamboo%20astratto%202_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Bamboo%20astratto%202_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Bamboo%20astratto%202_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Bamboo%20astratto%202_statement_print.jpg",
+    },
+  },
+  {
+    slug: "bamboo-astratto",
+    title: "Bamboo Astratto",
+    categories: ["abstract"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/Bamboo%20astratto.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Bamboo%20astratto_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Bamboo%20astratto_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Bamboo%20astratto_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Bamboo%20astratto_statement_print.jpg",
+    },
+  },
+  {
+    slug: "beacon-in-the-fog-slovenia",
+    title: "Beacon In The Fog Slovenia",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/beacon-in-the-fog-slovenia.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/beacon-in-the-fog-slovenia_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/beacon-in-the-fog-slovenia_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/beacon-in-the-fog-slovenia_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/beacon-in-the-fog-slovenia_statement_print.jpg",
+    },
+  },
+  {
+    slug: "beaugranelle-b-w-2",
+    title: "Beaugranelle B&w 2",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/Beaugranelle%20B%26W%202.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Beaugranelle%20B%26W%202_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Beaugranelle%20B%26W%202_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Beaugranelle%20B%26W%202_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Beaugranelle%20B%26W%202_statement_print.jpg",
+    },
+  },
+  {
+    slug: "blue",
+    title: "Blue",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/Blue.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Blue_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Blue_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Blue_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Blue_statement_print.jpg",
+    },
+  },
+  {
+    slug: "chromatic-passage-london",
+    title: "Chromatic Passage London",
+    categories: ["abstract"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/chromatic-passage-london.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/chromatic-passage-london_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/chromatic-passage-london_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/chromatic-passage-london_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/chromatic-passage-london_statement_print.jpg",
+    },
+  },
+  {
+    slug: "church-in-the-fog-slovenia",
+    title: "Church In The Fog Slovenia",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/church-in-the-fog-slovenia.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/church-in-the-fog-slovenia_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/church-in-the-fog-slovenia_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/church-in-the-fog-slovenia_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/church-in-the-fog-slovenia_statement_print.jpg",
+    },
+  },
+  {
+    slug: "dna",
+    title: "Dna",
+    categories: ["abstract"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/dna.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/dna_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/dna_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/dna_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/dna_statement_print.jpg",
+    },
+  },
+  {
+    slug: "house-on-lake-bled",
+    title: "House On Lake Bled",
+    categories: ["landscape"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/house-on-lake-bled.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/house-on-lake-bled_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/house-on-lake-bled_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/house-on-lake-bled_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/house-on-lake-bled_statement_print.jpg",
+    },
+  },
+  {
+    slug: "idea",
+    title: "Idea",
+    categories: ["abstract"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/idea.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/idea_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/idea_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/idea_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/idea_statement_print.jpg",
+    },
+  },
+  {
+    slug: "king-cross-tunnel",
+    title: "King Cross Tunnel",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/king-cross-tunnel.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/king-cross-tunnel_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/king-cross-tunnel_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/king-cross-tunnel_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/king-cross-tunnel_statement_print.jpg",
+    },
+  },
+  {
+    slug: "linear-motion-paris-underground-1",
+    title: "Linear Motion Paris Underground 1",
+    categories: ["abstract"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/linear-motion-paris-underground-1.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/linear-motion-paris-underground-1_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/linear-motion-paris-underground-1_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/linear-motion-paris-underground-1_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/linear-motion-paris-underground-1_statement_print.jpg",
+    },
+  },
+  {
+    slug: "linear-motion-paris-underground-2",
+    title: "Linear Motion Paris Underground 2",
+    categories: ["abstract"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/linear-motion-paris-underground-2.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/linear-motion-paris-underground-2_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/linear-motion-paris-underground-2_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/linear-motion-paris-underground-2_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/linear-motion-paris-underground-2_statement_print.jpg",
+    },
+  },
+  {
+    slug: "london-steel",
+    title: "London Steel",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/London%20Steel.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/London%20Steel_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/London%20Steel_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/London%20Steel_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/London%20Steel_statement_print.jpg",
+    },
+  },
+  {
+    slug: "london-more-places-1",
+    title: "London More Places 1",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/london-more-places-1.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places-1_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places-1_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places-1_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places-1_statement_print.jpg",
+    },
+  },
+  {
+    slug: "osaka-nostalgia",
+    title: "Osaka Nostalgia",
+    categories: ["japan"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/Osaka%20Nostalgia.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Osaka%20Nostalgia_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Osaka%20Nostalgia_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Osaka%20Nostalgia_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Osaka%20Nostalgia_statement_print.jpg",
+    },
+  },
+  {
+    slug: "running-notredame",
+    title: "Running Notredame",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/running-notredame.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/running-notredame_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/running-notredame_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/running-notredame_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/running-notredame_statement_print.jpg",
+    },
+  },
+  {
+    slug: "sentiero-nebbioso",
+    title: "Sentiero Nebbioso",
+    categories: ["landscape"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/sentiero-nebbioso.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/sentiero-nebbioso_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/sentiero-nebbioso_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/sentiero-nebbioso_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/sentiero-nebbioso_statement_print.jpg",
+    },
+  },
+  {
+    slug: "sharp-architecture-horizontal",
+    title: "Sharp Architecture Horizontal",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/sharp-architecture-horizontal.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/sharp-architecture-horizontal_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/sharp-architecture-horizontal_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/sharp-architecture-horizontal_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/sharp-architecture-horizontal_statement_print.jpg",
+    },
+  },
+  {
+    slug: "sharp-architecture",
+    title: "Sharp Architecture",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/sharp-architecture.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/sharp-architecture_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/sharp-architecture_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/sharp-architecture_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/sharp-architecture_statement_print.jpg",
+    },
+  },
+  {
+    slug: "silent-geometry",
+    title: "Silent Geometry",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/silent-geometry.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/silent-geometry_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/silent-geometry_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/silent-geometry_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/silent-geometry_statement_print.jpg",
+    },
+  },
+  {
+    slug: "sinsekai",
+    title: "Sinsekai",
+    categories: ["japan"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/Sinsekai.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Sinsekai_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Sinsekai_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Sinsekai_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Sinsekai_statement_print.jpg",
+    },
+  },
+  {
+    slug: "spiral-of-light",
+    title: "Spiral Of Light",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/spiral-of-light.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/spiral-of-light_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/spiral-of-light_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/spiral-of-light_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/spiral-of-light_statement_print.jpg",
+    },
+  },
+  {
+    slug: "spiral-staircase",
+    title: "Spiral Staircase",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/spiral-staircase.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/spiral-staircase_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/spiral-staircase_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/spiral-staircase_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/spiral-staircase_statement_print.jpg",
+    },
+  },
+  {
+    slug: "starway-to-heaven-2",
+    title: "Starway To Heaven 2",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/Starway%20to%20heaven%202.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Starway%20to%20heaven%202_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Starway%20to%20heaven%202_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Starway%20to%20heaven%202_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Starway%20to%20heaven%202_statement_print.jpg",
+    },
+  },
+  {
+    slug: "stazione-mediopadana",
+    title: "Stazione Mediopadana",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/stazione-mediopadana.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/stazione-mediopadana_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/stazione-mediopadana_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/stazione-mediopadana_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/stazione-mediopadana_statement_print.jpg",
+    },
+  },
+  {
+    slug: "stop",
+    title: "Stop",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/stop.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/stop_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/stop_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/stop_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/stop_statement_print.jpg",
+    },
+  },
+  {
+    slug: "the-point",
+    title: "The Point",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/the-point.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/the-point_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/the-point_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/the-point_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/the-point_statement_print.jpg",
+    },
+  },
+  {
+    slug: "thinking-eiffel-tower",
+    title: "Thinking Eiffel Tower",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/thinking-eiffel-tower.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/thinking-eiffel-tower_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/thinking-eiffel-tower_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/thinking-eiffel-tower_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/thinking-eiffel-tower_statement_print.jpg",
+    },
+  },
+  {
+    slug: "tulip-stair",
+    title: "Tulip Stair",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/tulip-stair.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/tulip-stair_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/tulip-stair_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/tulip-stair_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/tulip-stair_statement_print.jpg",
+    },
+  },
+  {
+    slug: "umeda-sky-building-blue",
+    title: "Umeda Sky Building Blue",
+    categories: ["japan", "architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/Umeda%20Sky%20Building%20Blue.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Blue_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Blue_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Blue_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Blue_statement_print.jpg",
+    },
+  },
+  {
+    slug: "umeda-sky-building-red",
+    title: "Umeda Sky Building Red",
+    categories: ["japan", "architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/Umeda%20Sky%20Building%20Red.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Red_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Red_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Red_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Red_statement_print.jpg",
+    },
+  },
+  {
+    slug: "umeda-sky-building-yellow",
+    title: "Umeda Sky Building Yellow",
+    categories: ["japan", "architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/Umeda%20Sky%20Building%20Yellow.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Yellow_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Yellow_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Yellow_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building%20Yellow_statement_print.jpg",
+    },
+  },
+  {
+    slug: "umeda-sky-building",
+    title: "Umeda Sky Building",
+    categories: ["japan", "architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/Umeda%20Sky%20Building.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building_statement_print.jpg",
+    },
+  },
+  {
+    slug: "unicredit-milano-city-life-aereo",
+    title: "Unicredit Milano City Life Aereo",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/unicredit-milano-city-life-aereo.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/unicredit-milano-city-life-aereo_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/unicredit-milano-city-life-aereo_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/unicredit-milano-city-life-aereo_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/unicredit-milano-city-life-aereo_statement_print.jpg",
+    },
+  },
+  {
+    slug: "unicredit-milano-city-life",
+    title: "Unicredit Milano City Life",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/unicredit-milano-city-life.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/unicredit-milano-city-life_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/unicredit-milano-city-life_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/unicredit-milano-city-life_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/unicredit-milano-city-life_statement_print.jpg",
+    },
+  },
+  {
+    slug: "vecchietta-osaka",
+    title: "Vecchietta Osaka",
+    categories: ["japan"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/Vecchietta%20Osaka.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Vecchietta%20Osaka_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Vecchietta%20Osaka_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Vecchietta%20Osaka_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Vecchietta%20Osaka_statement_print.jpg",
+    },
+  },
+  {
+    slug: "via-lattea-passo-del-cirone",
+    title: "Via Lattea Passo Del Cirone",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/via-lattea-passo-del-cirone.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/via-lattea-passo-del-cirone_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/via-lattea-passo-del-cirone_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/via-lattea-passo-del-cirone_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/via-lattea-passo-del-cirone_statement_print.jpg",
+    },
+  },
+  {
+    slug: "vintage-louvre-1",
+    title: "Vintage Louvre 1",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/vintage-louvre-1.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-1_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-1_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-1_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-1_statement_print.jpg",
+    },
+  },
+  {
+    slug: "vintage-louvre-2",
+    title: "Vintage Louvre 2",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/vintage-louvre-2.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-2_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-2_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-2_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-2_statement_print.jpg",
+    },
+  },
+  {
+    slug: "vintage-louvre-3",
+    title: "Vintage Louvre 3",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/vintage-louvre-3.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-3_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-3_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-3_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/vintage-louvre-3_statement_print.jpg",
+    },
+  },
+  {
+    slug: "walking-in-paris",
+    title: "Walking In Paris",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/Walking%20in%20Paris.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/Walking%20in%20Paris_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/Walking%20in%20Paris_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/Walking%20in%20Paris_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/Walking%20in%20Paris_statement_print.jpg",
+    },
+  },
+  {
+    slug: "waves",
+    title: "Waves",
+    categories: ["abstract"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "portrait",
+    imageSrc: "/prints/waves.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/waves_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/waves_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/waves_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/waves_statement_print.jpg",
+    },
+  },
+  {
+    slug: "yellow-pyramid",
+    title: "Yellow Pyramid",
+    categories: ["architecture"], // TODO: verifica/correggi le categorie
+    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    orientation: "landscape",
+    imageSrc: "/prints/yellow-pyramid.jpg",
+    printAssetUrls: {
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/yellow-pyramid_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/yellow-pyramid_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/yellow-pyramid_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/yellow-pyramid_statement_print.jpg",
     },
   },
 ];

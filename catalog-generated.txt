@@ -60,7 +60,7 @@ export const PRINTS: Print[] = [
     title: "Beacon In The Fog Slovenia",
     categories: ["architecture"], // TODO: verifica/correggi le categorie
     story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
+    orientation: "landscape",
     imageSrc: "/prints/beacon-in-the-fog-slovenia.jpg",
     printAssetUrls: {
       entry: "https://samerfineart-sito-red.vercel.app/print-files/beacon-in-the-fog-slovenia_entry_print.jpg",
@@ -74,7 +74,7 @@ export const PRINTS: Print[] = [
     title: "Beaugranelle B&w 2",
     categories: ["architecture"], // TODO: verifica/correggi le categorie
     story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
+    orientation: "landscape",
     imageSrc: "/prints/Beaugranelle%20B%26W%202.jpg",
     printAssetUrls: {
       entry: "https://samerfineart-sito-red.vercel.app/print-files/Beaugranelle%20B%26W%202_entry_print.jpg",
@@ -102,7 +102,7 @@ export const PRINTS: Print[] = [
     title: "Chromatic Passage London",
     categories: ["abstract"], // TODO: verifica/correggi le categorie
     story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
+    orientation: "landscape",
     imageSrc: "/prints/chromatic-passage-london.jpg",
     printAssetUrls: {
       entry: "https://samerfineart-sito-red.vercel.app/print-files/chromatic-passage-london_entry_print.jpg",
@@ -116,7 +116,7 @@ export const PRINTS: Print[] = [
     title: "Church In The Fog Slovenia",
     categories: ["architecture"], // TODO: verifica/correggi le categorie
     story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
+    orientation: "landscape",
     imageSrc: "/prints/church-in-the-fog-slovenia.jpg",
     printAssetUrls: {
       entry: "https://samerfineart-sito-red.vercel.app/print-files/church-in-the-fog-slovenia_entry_print.jpg",
@@ -228,27 +228,13 @@ export const PRINTS: Print[] = [
     title: "London More Places 1",
     categories: ["architecture"], // TODO: verifica/correggi le categorie
     story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
+    orientation: "landscape",
     imageSrc: "/prints/london-more-places-1.jpg",
     printAssetUrls: {
       entry: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places-1_entry_print.jpg",
       standard: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places-1_standard_print.jpg",
       hero: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places-1_hero_print.jpg",
       statement: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places-1_statement_print.jpg",
-    },
-  },
-  {
-    slug: "london-more-places",
-    title: "London More Places",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
-    imageSrc: "/prints/london-more-places.jpg",
-    printAssetUrls: {
-      entry: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places_entry_print.jpg",
-      standard: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places_standard_print.jpg",
-      hero: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places_hero_print.jpg",
-      statement: "https://samerfineart-sito-red.vercel.app/print-files/london-more-places_statement_print.jpg",
     },
   },
   {
@@ -336,20 +322,6 @@ export const PRINTS: Print[] = [
     },
   },
   {
-    slug: "simona-thomas-notredame",
-    title: "Simona Thomas Notredame",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
-    imageSrc: "/prints/simona-thomas-notredame.jpg",
-    printAssetUrls: {
-      entry: "https://samerfineart-sito-red.vercel.app/print-files/simona-thomas-notredame_entry_print.jpg",
-      standard: "https://samerfineart-sito-red.vercel.app/print-files/simona-thomas-notredame_standard_print.jpg",
-      hero: "https://samerfineart-sito-red.vercel.app/print-files/simona-thomas-notredame_hero_print.jpg",
-      statement: "https://samerfineart-sito-red.vercel.app/print-files/simona-thomas-notredame_statement_print.jpg",
-    },
-  },
-  {
     slug: "sinsekai",
     title: "Sinsekai",
     categories: ["japan"], // TODO: verifica/correggi le categorie
@@ -382,27 +354,13 @@ export const PRINTS: Print[] = [
     title: "Spiral Staircase",
     categories: ["architecture"], // TODO: verifica/correggi le categorie
     story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
+    orientation: "landscape",
     imageSrc: "/prints/spiral-staircase.jpg",
     printAssetUrls: {
       entry: "https://samerfineart-sito-red.vercel.app/print-files/spiral-staircase_entry_print.jpg",
       standard: "https://samerfineart-sito-red.vercel.app/print-files/spiral-staircase_standard_print.jpg",
       hero: "https://samerfineart-sito-red.vercel.app/print-files/spiral-staircase_hero_print.jpg",
       statement: "https://samerfineart-sito-red.vercel.app/print-files/spiral-staircase_statement_print.jpg",
-    },
-  },
-  {
-    slug: "stairway-to-heaven",
-    title: "Stairway To Heaven",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
-    imageSrc: "/prints/stairway-to-heaven.jpg",
-    printAssetUrls: {
-      entry: "https://samerfineart-sito-red.vercel.app/print-files/stairway-to-heaven_entry_print.jpg",
-      standard: "https://samerfineart-sito-red.vercel.app/print-files/stairway-to-heaven_standard_print.jpg",
-      hero: "https://samerfineart-sito-red.vercel.app/print-files/stairway-to-heaven_hero_print.jpg",
-      statement: "https://samerfineart-sito-red.vercel.app/print-files/stairway-to-heaven_statement_print.jpg",
     },
   },
   {
@@ -543,20 +501,6 @@ export const PRINTS: Print[] = [
       standard: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building_standard_print.jpg",
       hero: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building_hero_print.jpg",
       statement: "https://samerfineart-sito-red.vercel.app/print-files/Umeda%20Sky%20Building_statement_print.jpg",
-    },
-  },
-  {
-    slug: "umeda-sky-yellow",
-    title: "Umeda Sky Yellow",
-    categories: ["japan"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
-    orientation: "portrait",
-    imageSrc: "/prints/umeda-sky-yellow.jpg",
-    printAssetUrls: {
-      entry: "https://samerfineart-sito-red.vercel.app/print-files/umeda-sky-yellow_entry_print.jpg",
-      standard: "https://samerfineart-sito-red.vercel.app/print-files/umeda-sky-yellow_standard_print.jpg",
-      hero: "https://samerfineart-sito-red.vercel.app/print-files/umeda-sky-yellow_hero_print.jpg",
-      statement: "https://samerfineart-sito-red.vercel.app/print-files/umeda-sky-yellow_statement_print.jpg",
     },
   },
   {
