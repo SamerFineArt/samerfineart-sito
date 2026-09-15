@@ -1,11 +1,7 @@
-// Invia una notifica push immediata quando un ordine Prodigi fallisce dopo
-// un pagamento già riuscito -- così non scopri il problema solo perché il
+// Invia una email di allerta quando un ordine Prodigi fallisce dopo un
+// pagamento già riuscito -- così non scopri il problema solo perché il
 // cliente scrive "non ho ricevuto nulla".
-//
-// Usa ntfy.sh (https://ntfy.sh): servizio gratuito, NESSUNA registrazione
-// richiesta. Basta scegliere un "topic" (una parola a piacere, univoca e
-// difficile da indovinare, es. "samerfineart-alert-x7k2") e installare
-// l'app gratuita ntfy su telefono, iscritta a quel topic.
+// Usa Resend (https://resend.com), piano gratuito sufficiente per basso volume.
 
 export async function sendOrderFailureAlert(details: {
   stripeSessionId: string;
@@ -14,33 +10,42 @@ export async function sendOrderFailureAlert(details: {
   prodigiSku?: string;
   errorMessage: string;
 }) {
-  const topic = process.env.NTFY_TOPIC;
+  const apiKey = process.env.RESEND_API_KEY;
+  const alertTo = process.env.ALERT_EMAIL;
 
-  if (!topic) {
-    console.error("NTFY_TOPIC non impostata: impossibile inviare la notifica di errore.");
+  if (!apiKey || !alertTo) {
+    console.error(
+      "RESEND_API_KEY o ALERT_EMAIL non impostate: impossibile inviare la notifica di errore."
+    );
     return;
   }
 
-  const message = [
-    `Cliente: ${details.customerEmail || "email non disponibile"}`,
-    `Foto: ${details.printSlug || "non disponibile"}`,
-    `SKU Prodigi: ${details.prodigiSku || "non disponibile"}`,
-    `Stripe session: ${details.stripeSessionId}`,
-    `Errore: ${details.errorMessage}`,
-  ].join("\n");
-
   try {
-    await fetch(`https://ntfy.sh/${topic}`, {
+    await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
-        Title: "Ordine pagato ma NON creato su Prodigi",
-        Priority: "urgent",
-        Tags: "warning",
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
       },
-      body: message,
+      body: JSON.stringify({
+        from: "Samer Fine Art <onboarding@resend.dev>",
+        to: alertTo,
+        subject: "⚠️ Ordine pagato ma non creato su Prodigi",
+        html: `
+          <p><strong>Un cliente ha pagato ma l'ordine di stampa NON è stato creato su Prodigi.</strong></p>
+          <p>Serve intervento manuale per evadere l'ordine.</p>
+          <ul>
+            <li>Stripe Session ID: ${details.stripeSessionId}</li>
+            <li>Email cliente: ${details.customerEmail || "non disponibile"}</li>
+            <li>Foto: ${details.printSlug || "non disponibile"}</li>
+            <li>SKU Prodigi: ${details.prodigiSku || "non disponibile"}</li>
+            <li>Errore: ${details.errorMessage}</li>
+          </ul>
+          <p>Controlla la sessione su Stripe Dashboard per i dettagli completi (indirizzo di spedizione, importo, ecc.).</p>
+        `,
+      }),
     });
   } catch (err) {
-    // Se anche l'invio della notifica fallisce, almeno resta nei log Vercel.
     console.error("Impossibile inviare la notifica di errore:", err);
   }
 }
