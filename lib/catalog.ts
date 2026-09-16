@@ -64,7 +64,9 @@ export const CATEGORY_IDS: CategoryId[] = ["architecture", "abstract", "landscap
 export type Print = {
   slug: string;
   title: string;
-  story: string; // breve contesto: dove/perché scattata
+  location?: string; // es. "Osaka, Giappone" — mostrata in pagina prodotto
+  story?: string; // opzionale: solo per le foto dove hai davvero qualcosa da raccontare
+  featured?: boolean; // true = mostrata nella sezione "Selected Work" in home
   orientation: "portrait" | "landscape";
   categories: CategoryId[];
   imageSrc: string; // anteprima ottimizzata per il sito
@@ -149,9 +151,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "beaugranelle-b-w-2",
-    title: "Beaugranelle B&w 2",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    location: "TODO: es. Osaka, Giappone",
+    title: "Beaugrenelle",
+    categories: ["architecture"],
+    location: "Parigi, Francia",
     orientation: "landscape",
     imageSrc: "/prints/Beaugranelle%20B%26W%202.jpg",
     printAssetUrls: {
@@ -206,6 +208,7 @@ export const PRINTS: Print[] = [
   {
     slug: "dna",
     title: "Dna",
+    featured: true,
     categories: ["abstract"],
     location: "Milano, Italia",
     orientation: "portrait",
@@ -388,6 +391,7 @@ export const PRINTS: Print[] = [
   {
     slug: "silent-geometry",
     title: "Silent Geometry",
+    featured: true,
     categories: ["architecture"],
     location: "Londra, Regno Unito",
     orientation: "portrait",
@@ -444,6 +448,7 @@ export const PRINTS: Print[] = [
   {
     slug: "starway-to-heaven-2",
     title: "Stairway to Heaven",
+    featured: true,
     categories: ["architecture", "japan"],
     location: "Osaka, Giappone",
     orientation: "portrait",
@@ -556,6 +561,7 @@ export const PRINTS: Print[] = [
   {
     slug: "umeda-sky-building-yellow",
     title: "Yellow Window",
+    featured: true,
     categories: ["architecture", "japan"],
     location: "Osaka, Giappone",
     orientation: "portrait",
@@ -640,6 +646,7 @@ export const PRINTS: Print[] = [
   {
     slug: "vintage-louvre-1",
     title: "Rain Geometry I",
+    featured: true,
     categories: ["architecture"],
     location: "Parigi, Francia",
     orientation: "portrait",
@@ -682,6 +689,7 @@ export const PRINTS: Print[] = [
   {
     slug: "walking-in-paris",
     title: "Walking in Paris",
+    featured: true,
     categories: ["architecture"],
     location: "Parigi, Francia",
     orientation: "portrait",
