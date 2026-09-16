@@ -11,7 +11,7 @@
     "title": "Architectural photography,\nprinted to last.",
     "subtitle": "Fine art editions on Hahnemühle Photo Rag 308gsm, pigment Giclée printing. Worldwide shipping, straight from the lab closest to you.",
     "cta": "See available prints",
-    "latest": "Latest editions",
+    "latest": "Selected Work",
     "viewAll": "All prints",
     "startingFrom": "From €{price}"
   },
@@ -39,7 +39,8 @@
       "standard": "The most versatile size for home walls.",
       "hero": "A strong presence, meant to be the focal point of the room.",
       "statement": "The largest size in the collection, for generous spaces."
-    }
+    },
+    "fineArtPrint": "Fine art print"
   },
   "checkout": {
     "successTitle": "Thank you for your order",
@@ -50,7 +51,7 @@
   },
   "about": {
     "title": "About",
-    "body": "[Placeholder text: two or three paragraphs about who you are, what you look for when photographing architecture, and why you chose this paper and print format. No extensive portfolio here — that lives on Instagram — just enough context to give value to the prints for sale.]",
+    "body": "I've been photographing seriously for a few years, drawn above all to the geometry and clean lines of architecture. I look for the frame that reduces a space to its essential shapes — that discovery, more than anything else, is what satisfies me. Every shot is an attempt to improve a little on the last. The prints you'll find here come from that personal pleasure, not a grand plan.",
     "instagram": "Follow the full body of work on Instagram"
   }
 }

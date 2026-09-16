@@ -45,7 +45,7 @@ export default async function Home() {
           </Link>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-12">
-          {PRINTS.map((print) => (
+          {PRINTS.slice(0, 6).map((print) => (
             <Link key={print.slug} href={`/shop/${print.slug}`} className="group block">
               <div
                 className={`relative border hairline mb-3 ${

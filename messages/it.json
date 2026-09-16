@@ -11,7 +11,7 @@
     "title": "Fotografia architettonica,\nstampata per durare.",
     "subtitle": "Edizioni fine art su carta Hahnemühle Photo Rag 308gsm, stampa Giclée pigmentata. Spedizione worldwide, direttamente dal laboratorio più vicino a te.",
     "cta": "Vedi le stampe disponibili",
-    "latest": "Ultime edizioni",
+    "latest": "Selezione di opere",
     "viewAll": "Tutte le stampe",
     "startingFrom": "A partire da €{price}"
   },
@@ -39,7 +39,8 @@
       "standard": "Il formato più versatile per pareti domestiche.",
       "hero": "Presenza importante, pensato per essere il punto focale della stanza.",
       "statement": "Il formato più grande della collezione, per spazi ampi."
-    }
+    },
+    "fineArtPrint": "Stampa fine art"
   },
   "checkout": {
     "successTitle": "Grazie per il tuo ordine",
@@ -50,7 +51,7 @@
   },
   "about": {
     "title": "Chi sono",
-    "body": "[Testo segnaposto: due o tre paragrafi su chi sei, cosa cerchi quando fotografi architettura, e perché hai scelto questa carta e questo formato di stampa. Niente portfolio esteso qui — quello vive su Instagram — solo il contesto che dà valore alle stampe in vendita.]",
+    "body": "Fotografo da qualche anno, attratto soprattutto dalla geometria e dalle linee pulite dell'architettura. Cerco l'inquadratura che riduce uno spazio alle sue forme essenziali — è quella scoperta, più di ogni altra cosa, a darmi soddisfazione. Ogni scatto è un tentativo di migliorarmi un po' rispetto al precedente. Le stampe che trovi qui nascono da quel piacere personale, non da un piano a tavolino.",
     "instagram": "Segui il lavoro completo su Instagram"
   }
 }

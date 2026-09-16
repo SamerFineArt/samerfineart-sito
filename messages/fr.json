@@ -11,7 +11,7 @@
     "title": "Photographie architecturale,\nimprimée pour durer.",
     "subtitle": "Éditions fine art sur papier Hahnemühle Photo Rag 308gsm, impression Giclée pigmentaire. Livraison mondiale, directement depuis le laboratoire le plus proche de vous.",
     "cta": "Voir les tirages disponibles",
-    "latest": "Dernières éditions",
+    "latest": "Sélection d'œuvres",
     "viewAll": "Tous les tirages",
     "startingFrom": "À partir de {price}€"
   },
@@ -39,7 +39,8 @@
       "standard": "Le format le plus polyvalent pour les murs de la maison.",
       "hero": "Une présence forte, pensée pour être le point focal de la pièce.",
       "statement": "Le plus grand format de la collection, pour les espaces généreux."
-    }
+    },
+    "fineArtPrint": "Tirage d'art"
   },
   "checkout": {
     "successTitle": "Merci pour votre commande",
@@ -50,7 +51,7 @@
   },
   "about": {
     "title": "À propos",
-    "body": "[Texte à venir : deux ou trois paragraphes sur qui vous êtes, ce que vous recherchez en photographiant l'architecture, et pourquoi vous avez choisi ce papier et ce format de tirage. Pas de portfolio étendu ici — cela reste sur Instagram — juste le contexte qui donne de la valeur aux tirages en vente.]",
+    "body": "Je photographie sérieusement depuis quelques années, attiré avant tout par la géométrie et les lignes épurées de l'architecture. Je cherche le cadrage qui réduit un espace à ses formes essentielles — cette découverte, plus que tout, est ce qui me satisfait. Chaque photo est une tentative de progresser un peu par rapport à la précédente. Les tirages que vous trouverez ici naissent de ce plaisir personnel, pas d'un plan établi.",
     "instagram": "Suivez le travail complet sur Instagram"
   }
 }

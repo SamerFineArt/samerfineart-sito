@@ -11,7 +11,7 @@
     "title": "Fotografía arquitectónica,\nimpresa para durar.",
     "subtitle": "Ediciones fine art sobre papel Hahnemühle Photo Rag 308gsm, impresión Giclée pigmentada. Envío mundial, directamente desde el laboratorio más cercano a ti.",
     "cta": "Ver impresiones disponibles",
-    "latest": "Últimas ediciones",
+    "latest": "Selección de obras",
     "viewAll": "Todas las impresiones",
     "startingFrom": "Desde {price}€"
   },
@@ -39,7 +39,8 @@
       "standard": "El tamaño más versátil para paredes domésticas.",
       "hero": "Una presencia fuerte, pensada para ser el punto focal de la habitación.",
       "statement": "El tamaño más grande de la colección, para espacios generosos."
-    }
+    },
+    "fineArtPrint": "Impresión de arte"
   },
   "checkout": {
     "successTitle": "Gracias por tu pedido",
@@ -50,7 +51,7 @@
   },
   "about": {
     "title": "Sobre mí",
-    "body": "[Texto pendiente: dos o tres párrafos sobre quién eres, qué buscas al fotografiar arquitectura, y por qué elegiste este papel y este formato de impresión. Sin portfolio extenso aquí — eso vive en Instagram — solo el contexto que da valor a las impresiones en venta.]",
+    "body": "Fotografío en serio desde hace unos años, atraído sobre todo por la geometría y las líneas limpias de la arquitectura. Busco el encuadre que reduce un espacio a sus formas esenciales — ese descubrimiento, más que cualquier otra cosa, es lo que me da satisfacción. Cada foto es un intento de mejorar un poco respecto a la anterior. Las impresiones que encontrarás aquí nacen de ese placer personal, no de un plan calculado.",
     "instagram": "Sigue el trabajo completo en Instagram"
   }
 }

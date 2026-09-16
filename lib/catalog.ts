@@ -76,27 +76,26 @@ export type Print = {
   }; // un file con bordo diverso per ciascuna fascia — generato con lo script Python
 };
 
-// Testi segnaposto — da rifinire con le tue parole prima del lancio.
 export const PRINTS: Print[] = [
   {
     slug: "20-fenchurch-street",
-    title: "20 Fenchurch Street",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Glass Tower",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "portrait",
     imageSrc: "/prints/20-fenchurch-street.jpg",
     printAssetUrls: {
-      entry: "https://samerfineart-sito-red.vercel.app/print-files/20-Fenchurch-Street_entry_print.jpg",
-      standard: "https://samerfineart-sito-red.vercel.app/print-files/20-Fenchurch-Street_standard_print.jpg",
-      hero: "https://samerfineart-sito-red.vercel.app/print-files/20-Fenchurch-Street_hero_print.jpg",
-      statement: "https://samerfineart-sito-red.vercel.app/print-files/20-Fenchurch-Street_statement_print.jpg",
+      entry: "https://samerfineart-sito-red.vercel.app/print-files/20-fenchurch-street_entry_print.jpg",
+      standard: "https://samerfineart-sito-red.vercel.app/print-files/20-fenchurch-street_standard_print.jpg",
+      hero: "https://samerfineart-sito-red.vercel.app/print-files/20-fenchurch-street_hero_print.jpg",
+      statement: "https://samerfineart-sito-red.vercel.app/print-files/20-fenchurch-street_statement_print.jpg",
     },
   },
   {
     slug: "architectural-symphony",
     title: "Architectural Symphony",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "portrait",
     imageSrc: "/prints/architectural-symphony.jpg",
     printAssetUrls: {
@@ -108,9 +107,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "bamboo-astratto-2",
-    title: "Bamboo Astratto 2",
-    categories: ["abstract"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Arashiyama Abstract",
+    categories: ["abstract", "japan"],
+    location: "Kyoto, Giappone",
     orientation: "landscape",
     imageSrc: "/prints/Bamboo%20astratto%202.jpg",
     printAssetUrls: {
@@ -122,9 +121,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "bamboo-astratto",
-    title: "Bamboo Astratto",
-    categories: ["abstract"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Bamboo Abstract",
+    categories: ["abstract", "japan"],
+    location: "Kyoto, Giappone",
     orientation: "landscape",
     imageSrc: "/prints/Bamboo%20astratto.jpg",
     printAssetUrls: {
@@ -136,9 +135,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "beacon-in-the-fog-slovenia",
-    title: "Beacon In The Fog Slovenia",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "The Beacon",
+    categories: ["landscape"],
+    location: "Slovenia",
     orientation: "landscape",
     imageSrc: "/prints/beacon-in-the-fog-slovenia.jpg",
     printAssetUrls: {
@@ -152,7 +151,7 @@ export const PRINTS: Print[] = [
     slug: "beaugranelle-b-w-2",
     title: "Beaugranelle B&w 2",
     categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    location: "TODO: es. Osaka, Giappone",
     orientation: "landscape",
     imageSrc: "/prints/Beaugranelle%20B%26W%202.jpg",
     printAssetUrls: {
@@ -165,8 +164,8 @@ export const PRINTS: Print[] = [
   {
     slug: "blue",
     title: "Blue",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture"],
+    location: "Milano, Italia",
     orientation: "landscape",
     imageSrc: "/prints/Blue.jpg",
     printAssetUrls: {
@@ -178,9 +177,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "chromatic-passage-london",
-    title: "Chromatic Passage London",
-    categories: ["abstract"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Chromatic Passage",
+    categories: ["abstract"],
+    location: "Londra, Regno Unito",
     orientation: "landscape",
     imageSrc: "/prints/chromatic-passage-london.jpg",
     printAssetUrls: {
@@ -192,9 +191,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "church-in-the-fog-slovenia",
-    title: "Church In The Fog Slovenia",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Church in the Fog",
+    categories: ["landscape"],
+    location: "Slovenia",
     orientation: "landscape",
     imageSrc: "/prints/church-in-the-fog-slovenia.jpg",
     printAssetUrls: {
@@ -207,8 +206,8 @@ export const PRINTS: Print[] = [
   {
     slug: "dna",
     title: "Dna",
-    categories: ["abstract"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["abstract"],
+    location: "Milano, Italia",
     orientation: "portrait",
     imageSrc: "/prints/dna.jpg",
     printAssetUrls: {
@@ -220,9 +219,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "house-on-lake-bled",
-    title: "House On Lake Bled",
-    categories: ["landscape"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "House on Lake Bled",
+    categories: ["landscape"],
+    location: "Lago di Bled, Slovenia",
     orientation: "portrait",
     imageSrc: "/prints/house-on-lake-bled.jpg",
     printAssetUrls: {
@@ -235,8 +234,8 @@ export const PRINTS: Print[] = [
   {
     slug: "idea",
     title: "Idea",
-    categories: ["abstract"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["abstract"],
+    location: "Praga, Repubblica Ceca",
     orientation: "portrait",
     imageSrc: "/prints/idea.jpg",
     printAssetUrls: {
@@ -248,9 +247,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "king-cross-tunnel",
-    title: "King Cross Tunnel",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "King's Cross",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "landscape",
     imageSrc: "/prints/king-cross-tunnel.jpg",
     printAssetUrls: {
@@ -262,9 +261,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "linear-motion-paris-underground-1",
-    title: "Linear Motion Paris Underground 1",
-    categories: ["abstract"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Linear Motion I",
+    categories: ["abstract"],
+    location: "Parigi, Francia",
     orientation: "portrait",
     imageSrc: "/prints/linear-motion-paris-underground-1.jpg",
     printAssetUrls: {
@@ -276,9 +275,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "linear-motion-paris-underground-2",
-    title: "Linear Motion Paris Underground 2",
-    categories: ["abstract"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Linear Motion II",
+    categories: ["abstract"],
+    location: "Parigi, Francia",
     orientation: "landscape",
     imageSrc: "/prints/linear-motion-paris-underground-2.jpg",
     printAssetUrls: {
@@ -291,8 +290,8 @@ export const PRINTS: Print[] = [
   {
     slug: "london-steel",
     title: "London Steel",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "landscape",
     imageSrc: "/prints/London%20Steel.jpg",
     printAssetUrls: {
@@ -304,9 +303,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "london-more-places-1",
-    title: "London More Places 1",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Sharp Architecture B&W",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "landscape",
     imageSrc: "/prints/london-more-places-1.jpg",
     printAssetUrls: {
@@ -318,9 +317,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "osaka-nostalgia",
-    title: "Osaka Nostalgia",
-    categories: ["japan"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Osaka's Nostalgia",
+    categories: ["architecture", "japan"],
+    location: "Osaka, Giappone",
     orientation: "portrait",
     imageSrc: "/prints/Osaka%20Nostalgia.jpg",
     printAssetUrls: {
@@ -332,9 +331,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "running-notredame",
-    title: "Running Notredame",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Running near Notre-Dame",
+    categories: ["architecture"],
+    location: "Parigi, Francia",
     orientation: "landscape",
     imageSrc: "/prints/running-notredame.jpg",
     printAssetUrls: {
@@ -346,9 +345,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "sentiero-nebbioso",
-    title: "Sentiero Nebbioso",
-    categories: ["landscape"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Foggy Path",
+    categories: ["landscape"],
+    location: "Parma, Italia",
     orientation: "portrait",
     imageSrc: "/prints/sentiero-nebbioso.jpg",
     printAssetUrls: {
@@ -361,8 +360,8 @@ export const PRINTS: Print[] = [
   {
     slug: "sharp-architecture-horizontal",
     title: "Sharp Architecture Horizontal",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "landscape",
     imageSrc: "/prints/sharp-architecture-horizontal.jpg",
     printAssetUrls: {
@@ -374,9 +373,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "sharp-architecture",
-    title: "Sharp Architecture",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Sharp Architecture Vertical",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "portrait",
     imageSrc: "/prints/sharp-architecture.jpg",
     printAssetUrls: {
@@ -389,8 +388,8 @@ export const PRINTS: Print[] = [
   {
     slug: "silent-geometry",
     title: "Silent Geometry",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "portrait",
     imageSrc: "/prints/silent-geometry.jpg",
     printAssetUrls: {
@@ -403,8 +402,8 @@ export const PRINTS: Print[] = [
   {
     slug: "sinsekai",
     title: "Sinsekai",
-    categories: ["japan"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture", "japan"],
+    location: "Osaka, Giappone",
     orientation: "portrait",
     imageSrc: "/prints/Sinsekai.jpg",
     printAssetUrls: {
@@ -416,9 +415,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "spiral-of-light",
-    title: "Spiral Of Light",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Spiral of Light",
+    categories: ["architecture", "abstract"],
+    location: "Londra, Regno Unito",
     orientation: "portrait",
     imageSrc: "/prints/spiral-of-light.jpg",
     printAssetUrls: {
@@ -431,8 +430,8 @@ export const PRINTS: Print[] = [
   {
     slug: "spiral-staircase",
     title: "Spiral Staircase",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture"],
+    location: "Roma, Italia",
     orientation: "landscape",
     imageSrc: "/prints/spiral-staircase.jpg",
     printAssetUrls: {
@@ -444,9 +443,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "starway-to-heaven-2",
-    title: "Starway To Heaven 2",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Stairway to Heaven",
+    categories: ["architecture", "japan"],
+    location: "Osaka, Giappone",
     orientation: "portrait",
     imageSrc: "/prints/Starway%20to%20heaven%202.jpg",
     printAssetUrls: {
@@ -458,9 +457,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "stazione-mediopadana",
-    title: "Stazione Mediopadana",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Architecture or Abstraction?",
+    categories: ["architecture", "abstract"],
+    location: "Reggio Emilia, Italia",
     orientation: "portrait",
     imageSrc: "/prints/stazione-mediopadana.jpg",
     printAssetUrls: {
@@ -473,8 +472,8 @@ export const PRINTS: Print[] = [
   {
     slug: "stop",
     title: "Stop",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture", "abstract"],
+    location: "Berlino, Germania",
     orientation: "portrait",
     imageSrc: "/prints/stop.jpg",
     printAssetUrls: {
@@ -487,8 +486,8 @@ export const PRINTS: Print[] = [
   {
     slug: "the-point",
     title: "The Point",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "portrait",
     imageSrc: "/prints/the-point.jpg",
     printAssetUrls: {
@@ -500,9 +499,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "thinking-eiffel-tower",
-    title: "Thinking Eiffel Tower",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Thinking in Paris",
+    categories: ["architecture"],
+    location: "Parigi, Francia",
     orientation: "portrait",
     imageSrc: "/prints/thinking-eiffel-tower.jpg",
     printAssetUrls: {
@@ -514,9 +513,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "tulip-stair",
-    title: "Tulip Stair",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Blue Spiral",
+    categories: ["architecture", "abstract"],
+    location: "Londra, Regno Unito",
     orientation: "portrait",
     imageSrc: "/prints/tulip-stair.jpg",
     printAssetUrls: {
@@ -528,9 +527,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "umeda-sky-building-blue",
-    title: "Umeda Sky Building Blue",
-    categories: ["japan", "architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Blue Window",
+    categories: ["architecture", "japan"],
+    location: "Osaka, Giappone",
     orientation: "portrait",
     imageSrc: "/prints/Umeda%20Sky%20Building%20Blue.jpg",
     printAssetUrls: {
@@ -542,9 +541,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "umeda-sky-building-red",
-    title: "Umeda Sky Building Red",
-    categories: ["japan", "architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Red Window",
+    categories: ["architecture", "japan"],
+    location: "Osaka, Giappone",
     orientation: "landscape",
     imageSrc: "/prints/Umeda%20Sky%20Building%20Red.jpg",
     printAssetUrls: {
@@ -556,9 +555,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "umeda-sky-building-yellow",
-    title: "Umeda Sky Building Yellow",
-    categories: ["japan", "architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Yellow Window",
+    categories: ["architecture", "japan"],
+    location: "Osaka, Giappone",
     orientation: "portrait",
     imageSrc: "/prints/Umeda%20Sky%20Building%20Yellow.jpg",
     printAssetUrls: {
@@ -570,9 +569,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "umeda-sky-building",
-    title: "Umeda Sky Building",
-    categories: ["japan", "architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Reflections in the Sky",
+    categories: ["architecture", "japan"],
+    location: "Osaka, Giappone",
     orientation: "portrait",
     imageSrc: "/prints/Umeda%20Sky%20Building.jpg",
     printAssetUrls: {
@@ -584,9 +583,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "unicredit-milano-city-life-aereo",
-    title: "Unicredit Milano City Life Aereo",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Milan Architecture",
+    categories: ["architecture"],
+    location: "Milano, Italia",
     orientation: "portrait",
     imageSrc: "/prints/unicredit-milano-city-life-aereo.jpg",
     printAssetUrls: {
@@ -598,9 +597,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "unicredit-milano-city-life",
-    title: "Unicredit Milano City Life",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Urban Portal",
+    categories: ["architecture"],
+    location: "Milano, Italia",
     orientation: "landscape",
     imageSrc: "/prints/unicredit-milano-city-life.jpg",
     printAssetUrls: {
@@ -612,9 +611,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "vecchietta-osaka",
-    title: "Vecchietta Osaka",
-    categories: ["japan"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Retro Osaka",
+    categories: ["japan"],
+    location: "Osaka, Giappone",
     orientation: "portrait",
     imageSrc: "/prints/Vecchietta%20Osaka.jpg",
     printAssetUrls: {
@@ -626,9 +625,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "via-lattea-passo-del-cirone",
-    title: "Via Lattea Passo Del Cirone",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Milky Way at Passo del Cirone",
+    categories: ["landscape"],
+    location: "Parma, Italia",
     orientation: "portrait",
     imageSrc: "/prints/via-lattea-passo-del-cirone.jpg",
     printAssetUrls: {
@@ -640,9 +639,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "vintage-louvre-1",
-    title: "Vintage Louvre 1",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Rain Geometry I",
+    categories: ["architecture"],
+    location: "Parigi, Francia",
     orientation: "portrait",
     imageSrc: "/prints/vintage-louvre-1.jpg",
     printAssetUrls: {
@@ -654,9 +653,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "vintage-louvre-2",
-    title: "Vintage Louvre 2",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Rain Geometry II",
+    categories: ["architecture"],
+    location: "Parigi, Francia",
     orientation: "portrait",
     imageSrc: "/prints/vintage-louvre-2.jpg",
     printAssetUrls: {
@@ -668,9 +667,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "vintage-louvre-3",
-    title: "Vintage Louvre 3",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Rain Geometry III",
+    categories: ["architecture"],
+    location: "Parigi, Francia",
     orientation: "portrait",
     imageSrc: "/prints/vintage-louvre-3.jpg",
     printAssetUrls: {
@@ -682,9 +681,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "walking-in-paris",
-    title: "Walking In Paris",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Walking in Paris",
+    categories: ["architecture"],
+    location: "Parigi, Francia",
     orientation: "portrait",
     imageSrc: "/prints/Walking%20in%20Paris.jpg",
     printAssetUrls: {
@@ -697,8 +696,8 @@ export const PRINTS: Print[] = [
   {
     slug: "waves",
     title: "Waves",
-    categories: ["abstract"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: ["architecture", "abstract"],
+    location: "Reggio Emilia, Italia",
     orientation: "portrait",
     imageSrc: "/prints/waves.jpg",
     printAssetUrls: {
@@ -710,9 +709,9 @@ export const PRINTS: Print[] = [
   },
   {
     slug: "yellow-pyramid",
-    title: "Yellow Pyramid",
-    categories: ["architecture"], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    title: "Yellow",
+    categories: ["architecture"],
+    location: "Londra, Regno Unito",
     orientation: "landscape",
     imageSrc: "/prints/yellow-pyramid.jpg",
     printAssetUrls: {

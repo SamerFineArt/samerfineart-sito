@@ -19,6 +19,11 @@ from PIL import Image
 import re
 from urllib.parse import quote
 
+try:
+    from manual_overrides import OVERRIDES
+except ImportError:
+    OVERRIDES = {}
+
 PRINTS_DIR = Path("public/prints")
 PRINT_FILES_DIR = Path("public/print-files")
 SITE_DOMAIN = "https://samerfineart-sito-red.vercel.app"  # aggiorna con il tuo dominio definitivo
@@ -104,9 +109,17 @@ def main():
     for photo in base_photos:
         base_stem = photo.stem
         slug = slugify(base_stem)
-        title = humanize_title(base_stem)
         orientation = detect_orientation(base_stem)
-        categories = guess_categories(base_stem)
+
+        override = OVERRIDES.get(base_stem.lower())
+        if override:
+            title = override["title"]
+            location = override["location"]
+            categories = override["categories"]
+        else:
+            title = humanize_title(base_stem)
+            location = None
+            categories = guess_categories(base_stem)
         categories_str = ", ".join(f'"{c}"' for c in categories)
 
         # Verifica che tutte e 4 le varianti di stampa esistano.
@@ -120,11 +133,13 @@ def main():
 
         image_src = f"/{url_path('prints', photo.name)}"
 
+        location_str = location if location else "TODO: es. Osaka, Giappone"
+
         entry = f'''  {{
     slug: "{slug}",
     title: "{title}",
-    categories: [{categories_str}], // TODO: verifica/correggi le categorie
-    story: "TODO: breve contesto — dove e perché è stata scattata.",
+    categories: [{categories_str}],{" // TODO: verifica/correggi le categorie" if not override else ""}
+    location: "{location_str}",
     orientation: "{orientation}",
     imageSrc: "{image_src}",
     printAssetUrls: {{
