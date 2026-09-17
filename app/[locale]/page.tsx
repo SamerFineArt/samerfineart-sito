@@ -3,9 +3,13 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { PRINTS } from "@/lib/catalog";
 
+// Slug della foto da mostrare come immagine principale in home.
+// Per cambiarla, basta scrivere qui lo slug di un'altra foto del catalogo.
+const HERO_SLUG = "silent-geometry";
+
 export default async function Home() {
   const t = await getTranslations("home");
-  const hero = PRINTS[0];
+  const hero = PRINTS.find((p) => p.slug === HERO_SLUG) ?? PRINTS[0];
 
   return (
     <>
