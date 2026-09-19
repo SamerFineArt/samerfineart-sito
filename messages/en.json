@@ -40,7 +40,10 @@
       "hero": "A strong presence, meant to be the focal point of the room.",
       "statement": "The largest size in the collection, for generous spaces."
     },
-    "fineArtPrint": "Fine art print"
+    "fineArtPrint": "Fine art print",
+    "customRequestInfo": "Looking for a different size or material? Get in touch — I'm happy to discuss custom requests.",
+    "emailMe": "Email me",
+    "followInstagram": "Follow on Instagram"
   },
   "checkout": {
     "successTitle": "Thank you for your order",

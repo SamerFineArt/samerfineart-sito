@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { SIZE_TIERS } from "@/lib/catalog";
+import { SIZE_TIERS, getSizeLabel } from "@/lib/catalog";
 
 export default function ProductPurchasePanel({
   slug,
@@ -54,7 +54,7 @@ export default function ProductPurchasePanel({
             }`}
           >
             <p className="text-sm">{tier.label}</p>
-            <p className="wall-label">{tier.cmLabel}</p>
+            <p className="wall-label">{getSizeLabel(tier.id, orientation)}</p>
             <p className="text-sm mt-1">€{tier.price}</p>
           </button>
         ))}

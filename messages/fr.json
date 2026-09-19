@@ -40,7 +40,10 @@
       "hero": "Une présence forte, pensée pour être le point focal de la pièce.",
       "statement": "Le plus grand format de la collection, pour les espaces généreux."
     },
-    "fineArtPrint": "Tirage d'art"
+    "fineArtPrint": "Tirage d'art",
+    "customRequestInfo": "Vous cherchez un format ou un matériau différent ? Contactez-moi — je suis heureux d'étudier les demandes personnalisées.",
+    "emailMe": "Écrivez-moi",
+    "followInstagram": "Suivre sur Instagram"
   },
   "checkout": {
     "successTitle": "Merci pour votre commande",

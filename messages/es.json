@@ -40,7 +40,10 @@
       "hero": "Una presencia fuerte, pensada para ser el punto focal de la habitación.",
       "statement": "El tamaño más grande de la colección, para espacios generosos."
     },
-    "fineArtPrint": "Impresión de arte"
+    "fineArtPrint": "Impresión de arte",
+    "customRequestInfo": "¿Buscas un formato o material diferente? Escríbeme — estaré encantado de valorar solicitudes personalizadas.",
+    "emailMe": "Escríbeme",
+    "followInstagram": "Seguir en Instagram"
   },
   "checkout": {
     "successTitle": "Gracias por tu pedido",

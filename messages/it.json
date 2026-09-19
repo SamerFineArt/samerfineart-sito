@@ -40,7 +40,10 @@
       "hero": "Presenza importante, pensato per essere il punto focale della stanza.",
       "statement": "Il formato più grande della collezione, per spazi ampi."
     },
-    "fineArtPrint": "Stampa fine art"
+    "fineArtPrint": "Stampa fine art",
+    "customRequestInfo": "Cerchi un formato o un materiale diverso? Scrivimi — sono felice di valutare richieste personalizzate.",
+    "emailMe": "Scrivimi",
+    "followInstagram": "Seguimi su Instagram"
   },
   "checkout": {
     "successTitle": "Grazie per il tuo ordine",

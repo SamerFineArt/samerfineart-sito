@@ -737,6 +737,18 @@ export function getSkuForTier(tierId: string, orientation: "portrait" | "landsca
   return orientation === "portrait" ? tier.prodigiSkuPortrait : tier.prodigiSkuLandscape;
 }
 
+export function getSizeLabel(tierId: string, orientation: "portrait" | "landscape"): string {
+  const tier = SIZE_TIERS.find((t) => t.id === tierId);
+  if (!tier) return "";
+  if (orientation === "portrait") return tier.cmLabel;
+  // cmLabel è sempre scritto come "~LxH cm" (verticale di riferimento):
+  // per le foto orizzontali invertiamo i due numeri nell'etichetta mostrata.
+  const match = tier.cmLabel.match(/~(\d+)×(\d+)\s*cm/);
+  if (!match) return tier.cmLabel;
+  const [, w, h] = match;
+  return `~${h}×${w} cm`;
+}
+
 export function getPrintAssetUrl(print: Print, tierId: string): string {
   return print.printAssetUrls[tierId as keyof typeof print.printAssetUrls];
 }
