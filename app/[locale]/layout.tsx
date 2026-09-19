@@ -59,6 +59,14 @@ export default async function LocaleLayout({
           <footer className="border-t hairline mt-32">
             <div className="mx-auto max-w-6xl px-6 py-10 flex flex-col md:flex-row justify-between gap-4 wall-label">
               <p>© {new Date().getFullYear()} Samer Fine Art. {tFooter("rights")}</p>
+              <nav className="flex gap-4">
+                <Link href="/privacy" className="hover:text-[var(--color-accent)] transition-colors">
+                  {tFooter("privacy")}
+                </Link>
+                <Link href="/returns" className="hover:text-[var(--color-accent)] transition-colors">
+                  {tFooter("returns")}
+                </Link>
+              </nav>
               <p>{tFooter("printInfo")}</p>
             </div>
           </footer>

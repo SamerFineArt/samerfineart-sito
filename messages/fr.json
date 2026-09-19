@@ -5,7 +5,9 @@
   },
   "footer": {
     "rights": "Tous droits réservés.",
-    "printInfo": "Tirages Giclée sur papier Hahnemühle Photo Rag 308gsm — livraison mondiale."
+    "printInfo": "Tirages Giclée sur papier Hahnemühle Photo Rag 308gsm — livraison mondiale.",
+    "privacy": "Confidentialité",
+    "returns": "Livraison et retours"
   },
   "home": {
     "title": "Photographie architecturale,\nimprimée pour durer.",
@@ -56,5 +58,75 @@
     "title": "À propos",
     "body": "Je photographie sérieusement depuis quelques années, attiré avant tout par la géométrie et les lignes épurées de l'architecture. Je cherche le cadrage qui réduit un espace à ses formes essentielles — cette découverte, plus que tout, est ce qui me satisfait. Chaque photo est une tentative de progresser un peu par rapport à la précédente. Les tirages que vous trouverez ici naissent de ce plaisir personnel, pas d'un plan établi.",
     "instagram": "Suivez le travail complet sur Instagram"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: September 2026",
+      "sections": [
+        {
+          "heading": "Data Controller",
+          "body": "The data controller for information collected on this site is Samer (Samer Fine Art), reachable at samer.fineart1999@gmail.com. I currently operate as an individual, without a registered VAT business."
+        },
+        {
+          "heading": "Data Collected",
+          "body": "When you make a purchase, I collect: name, email address, shipping address. Payment details (card number, etc.) never pass through or are stored by me in any way: they are handled entirely by Stripe, our payment processor."
+        },
+        {
+          "heading": "Purpose of Processing",
+          "body": "The data collected is used exclusively to: process your order, communicate with the print fulfilment provider (Prodigi) for production and shipping, and respond to any support requests."
+        },
+        {
+          "heading": "Legal Basis",
+          "body": "Processing is based on the performance of the sales contract (GDPR art. 6.1.b) — your data is necessary to complete the order you requested."
+        },
+        {
+          "heading": "Data Recipients",
+          "body": "Your data is shared exclusively with the service providers necessary to complete your order: Stripe (payments), Prodigi (printing and shipping), Vercel (site hosting). No data is sold, shared, or used for advertising purposes by me."
+        },
+        {
+          "heading": "Data Retention",
+          "body": "Order-related data is retained for as long as necessary to fulfil the order and to comply with any legal obligations (e.g. tax-related), and in any case no longer than 10 years."
+        },
+        {
+          "heading": "Your Rights",
+          "body": "You may request access, correction, deletion, or restriction of your personal data at any time by writing to samer.fineart1999@gmail.com. You also have the right to lodge a complaint with your local data protection authority."
+        },
+        {
+          "heading": "Cookies",
+          "body": "This site uses only technical cookies necessary for checkout to function (managed by Stripe). No profiling or advertising tracking cookies are used."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Shipping & Returns",
+      "lastUpdated": "Last updated: September 2026",
+      "sections": [
+        {
+          "heading": "Made to Order",
+          "body": "Each print is produced specifically after your order, in the size you chose. Production time is generally 2-5 business days before shipping."
+        },
+        {
+          "heading": "Shipping",
+          "body": "Prints are shipped with tracked courier from the Prodigi lab closest to you worldwide. You'll receive an email with a tracking link as soon as your order ships. Prints from 20×30cm upward ship rolled in a protective rigid tube."
+        },
+        {
+          "heading": "Right of Withdrawal",
+          "body": "Because each print is a personalised product, made to order in the size you chose, the standard 14-day right of withdrawal for off-the-shelf products does not apply (Italian Consumer Code, art. 59, letter c — the EU equivalent applies for other member states)."
+        },
+        {
+          "heading": "Damage & Defects",
+          "body": "If your print arrives damaged in transit or has a printing defect, you're entitled to a free replacement. Contact me within 14 days of receipt at samer.fineart1999@gmail.com, with a photo of the damage/defect and your order number."
+        },
+        {
+          "heading": "Size Tolerance",
+          "body": "The sizes shown for each format are approximate: your print is made at the lab closest to you worldwide, rounded to the nearest inch or centimetre depending on the production region. A variation of a few millimetres from the nominal size is normal and not a defect."
+        },
+        {
+          "heading": "Contact",
+          "body": "For any question about an order, shipping, or return, write to samer.fineart1999@gmail.com."
+        }
+      ]
+    }
   }
 }

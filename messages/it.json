@@ -5,7 +5,9 @@
   },
   "footer": {
     "rights": "Tutti i diritti riservati.",
-    "printInfo": "Stampe Giclée su carta Hahnemühle Photo Rag 308gsm — spedizione worldwide."
+    "printInfo": "Stampe Giclée su carta Hahnemühle Photo Rag 308gsm — spedizione worldwide.",
+    "privacy": "Privacy",
+    "returns": "Spedizioni e Resi"
   },
   "home": {
     "title": "Fotografia architettonica,\nstampata per durare.",
@@ -56,5 +58,75 @@
     "title": "Chi sono",
     "body": "Fotografo da qualche anno, attratto soprattutto dalla geometria e dalle linee pulite dell'architettura. Cerco l'inquadratura che riduce uno spazio alle sue forme essenziali — è quella scoperta, più di ogni altra cosa, a darmi soddisfazione. Ogni scatto è un tentativo di migliorarmi un po' rispetto al precedente. Le stampe che trovi qui nascono da quel piacere personale, non da un piano a tavolino.",
     "instagram": "Segui il lavoro completo su Instagram"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Ultimo aggiornamento: settembre 2026",
+      "sections": [
+        {
+          "heading": "Titolare del trattamento",
+          "body": "Il titolare del trattamento dei dati raccolti su questo sito è Samer (Samer Fine Art), contattabile all'indirizzo email samer.fineart1999@gmail.com. Al momento opero come persona fisica, senza partita IVA."
+        },
+        {
+          "heading": "Dati raccolti",
+          "body": "Quando effettui un acquisto, raccolgo: nome, indirizzo email, indirizzo di spedizione. I dati di pagamento (numero carta, ecc.) non transitano né vengono conservati da me in alcun modo: sono gestiti interamente da Stripe, il nostro processore di pagamento."
+        },
+        {
+          "heading": "Finalità del trattamento",
+          "body": "I dati raccolti vengono utilizzati esclusivamente per: elaborare il tuo ordine, comunicare con il fornitore di stampa (Prodigi) per la produzione e spedizione, rispondere a eventuali richieste di assistenza."
+        },
+        {
+          "heading": "Base giuridica",
+          "body": "Il trattamento si basa sull'esecuzione del contratto di vendita (art. 6.1.b GDPR) — i tuoi dati sono necessari per completare l'ordine che hai richiesto."
+        },
+        {
+          "heading": "Destinatari dei dati",
+          "body": "I tuoi dati vengono condivisi esclusivamente con i fornitori di servizio necessari a completare l'ordine: Stripe (pagamenti), Prodigi (stampa e spedizione), Vercel (hosting del sito). Nessun dato viene venduto, ceduto o utilizzato per finalità pubblicitarie da parte mia."
+        },
+        {
+          "heading": "Conservazione dei dati",
+          "body": "I dati relativi agli ordini vengono conservati per il tempo necessario a evadere l'ordine e per adempiere a eventuali obblighi di legge (es. fiscali), e comunque non oltre 10 anni."
+        },
+        {
+          "heading": "I tuoi diritti",
+          "body": "In qualsiasi momento puoi richiedere accesso, rettifica, cancellazione o limitazione dei tuoi dati personali scrivendo a samer.fineart1999@gmail.com. Hai inoltre diritto di proporre reclamo al Garante per la Protezione dei Dati Personali."
+        },
+        {
+          "heading": "Cookie",
+          "body": "Questo sito utilizza esclusivamente cookie tecnici necessari al funzionamento del checkout (gestiti da Stripe). Non vengono utilizzati cookie di profilazione o tracciamento pubblicitario."
+        }
+      ]
+    },
+    "returns": {
+      "title": "Spedizioni e Resi",
+      "lastUpdated": "Ultimo aggiornamento: settembre 2026",
+      "sections": [
+        {
+          "heading": "Produzione su richiesta",
+          "body": "Ogni stampa viene prodotta appositamente dopo il tuo ordine, nel formato che hai scelto. I tempi di produzione sono generalmente di 2-5 giorni lavorativi prima della spedizione."
+        },
+        {
+          "heading": "Spedizione",
+          "body": "Le stampe vengono spedite con corriere tracciato dal laboratorio Prodigi più vicino a te nel mondo. Riceverai un'email con il link di tracciamento non appena l'ordine viene spedito. Le stampe dai 20×30cm in su vengono spedite arrotolate in tubo protettivo rigido."
+        },
+        {
+          "heading": "Diritto di recesso",
+          "body": "Poiché ogni stampa è un prodotto personalizzato, realizzato su richiesta nel formato scelto, non si applica il diritto di recesso di 14 giorni previsto per i prodotti standard (art. 59 del Codice del Consumo, lett. c)."
+        },
+        {
+          "heading": "Danni e difetti",
+          "body": "Se la tua stampa arriva danneggiata durante la spedizione o presenta un difetto di stampa, hai diritto alla sostituzione gratuita. Contattami entro 14 giorni dalla ricezione all'indirizzo samer.fineart1999@gmail.com, allegando una foto del danno/difetto e il numero d'ordine."
+        },
+        {
+          "heading": "Tolleranza dimensionale",
+          "body": "Le misure indicate per ogni formato sono approssimative: la stampa viene realizzata nel laboratorio più vicino a te nel mondo, con arrotondamento al pollice o al centimetro più vicino a seconda della zona di produzione. Una variazione di pochi millimetri rispetto alla misura nominale è normale e non costituisce un difetto."
+        },
+        {
+          "heading": "Contatti",
+          "body": "Per qualsiasi domanda su un ordine, spedizione o reso, scrivi a samer.fineart1999@gmail.com."
+        }
+      ]
+    }
   }
 }
